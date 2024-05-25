@@ -15,7 +15,7 @@ export default function App() {
     const [isError, setIsError] = useState(false);
     const [maxPages, setMaxPages] = useState(0);
     const [isModalOpen, setisModalOpen] = useState(false);
-    const [currentImage, setCurrentImage] = useState({});
+    const [currentImage, setCurrentImage] = useState(null);
 
     const handleImgClick = (img) => {
         setCurrentImage(img)
