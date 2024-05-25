@@ -10,8 +10,8 @@ export const getImages = async (topic, currentPage) => {
             client_id: "p16ARUtdG1Ap--N0GIL5cenjOJ9xzbioT_BuvqU4Gog",
         }
     })
-    console.log(response.data, response.data.results);
-    return response.data.results
+    
+    return response.data
     
 }
 

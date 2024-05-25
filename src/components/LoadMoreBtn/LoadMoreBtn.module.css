@@ -1,0 +1,8 @@
+.moreBtn{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    width: 150px;
+    font-size: 25px;
+}
